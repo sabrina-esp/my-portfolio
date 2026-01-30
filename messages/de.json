@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "Start",
+    "projects": "Projekte",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Sabrina Portfolio",
+    "subtitle": "Mobile- und Webentwicklerin — Flutter, Next.js, NestJS"
+  }
+}
