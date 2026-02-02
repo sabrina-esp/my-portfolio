@@ -1,6 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Hero } from "@/components/sections/hero";
+import { ProjectsSection } from "@/components/sections/projects";
 
 export default async function Home({
+  
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -13,17 +16,13 @@ export default async function Home({
   const t = await getTranslations({ locale: localeFromParams, namespace: "home" });
 
   return (
-    <main className="min-h-screen px-6 py-20">
-      <div className="mx-auto max-w-5xl">
-        {/* <p className="text-xs text-zinc-500 dark:text-zinc-400">
-          Server locale: {localeFromParams}
-        </p> */}
-        <h1 className="text-5xl font-semibold tracking-tight">{t("title")}</h1>
+    <>
+    <Hero
+      title={t("title")}
+      subtitle={t("subtitle")}
+    />
+    <ProjectsSection />
+    </>
 
-        <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
-          {t("subtitle")}
-        </p>
-      </div>
-    </main>
   );
 }

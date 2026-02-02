@@ -8,5 +8,9 @@
   "home": {
     "title": "Sabrina Portfolio",
     "subtitle": "Mobile und Webentwicklerin — Flutter, Next.js, NestJS"
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Eine Auswahl meiner Arbeiten."
   }
 }
