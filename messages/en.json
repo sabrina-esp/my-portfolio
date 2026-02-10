@@ -1,4 +1,6 @@
 {
+  "academic": { "title": "Academic Projects", "subtitle": "University and personal engineering projects." },
+"internship": { "title": "Internship Experience", "subtitle": "Real-world work and collaboration." },
   "nav": {
     "home": "Home",
     "projects": "Projects",
@@ -13,5 +15,6 @@
     "title": "Projects",
     "subtitle": "A selection of things I built."
   }
+  
 
 }

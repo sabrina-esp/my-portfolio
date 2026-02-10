@@ -12,5 +12,7 @@
   "projects": {
     "title": "Projekte",
     "subtitle": "Eine Auswahl meiner Arbeiten."
-  }
+  },
+  "academic": { "title": "Akademische Projekte", "subtitle": "Uni- und persönliche Engineering-Projekte." },
+"internship": { "title": "Praktikumserfahrung", "subtitle": "Praxisnahe Arbeit und Zusammenarbeit." }
 }
