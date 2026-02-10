@@ -1,7 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/sections/hero";
-import { InternshipSection } from "@/components/sections/internship";
-import { AcademicSection } from "@/components/sections/academic";
+import { ProjectsSection } from "@/components/sections/projects";
 
 export default async function Home({
   params,
@@ -18,8 +17,7 @@ export default async function Home({
   return (
     <>
       <Hero title={t("title")} subtitle={t("subtitle")} />
-      <InternshipSection />
-      <AcademicSection />
+      <ProjectsSection />
     </>
   );
 }

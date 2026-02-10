@@ -7,10 +7,7 @@ export function AcademicSection() {
   return (
     <section className="px-6 py-20" id="academic">
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-2xl font-semibold tracking-tight">
-          Academic Projects
-        </h2>
-
+      
         <div className="mt-10 grid gap-8 md:grid-cols-2">
           {academics.map((p) => (
             <ProjectCard
